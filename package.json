@@ -1,0 +1,10 @@
+{
+  "name": "pi-display",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "axios": "^0.20.0",
+    "blessed": "^0.1.81"
+  }
+}
