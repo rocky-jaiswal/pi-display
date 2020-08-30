@@ -6,7 +6,7 @@ const key = require('./key')
 let content = ''
 let weather = {}
 
-const randomPercentage = () => `${Math.floor(Math.random() * 60)}%`
+const randomPercentage = () => `${Math.floor(Math.random() * 30)}%`
 
 const getDate = () => `${new Date().toString().substr(0, 24)}`
 
@@ -47,8 +47,8 @@ screen.title = 'Pi'
 const box = blessed.box({
   top: 'center',
   left: 'center',
-  width: '40%',
-  height: '40%',
+  width: '60%',
+  height: '60%',
   content: `${getContent()}`,
   tags: true,
   border: {
